@@ -1,0 +1,44 @@
+h1, #newApplicantHead {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: black;
+    width: 124%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+    background-color: blueviolet;
+}
+
+.new-form {
+    width: 100%;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+form {
+    margin-left: 0px;
+}
+
+#submitNew, #printNew {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submitNew:hover, #printNew:hover {
+    background-color: navy;
+    
+}
